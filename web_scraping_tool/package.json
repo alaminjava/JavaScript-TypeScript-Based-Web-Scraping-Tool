@@ -1,0 +1,21 @@
+
+{
+  "name": "web-scraping-tool",
+  "version": "1.0.0",
+  "description": "A simple web scraping tool using Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.0.0",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.0.0"
+  }
+}
